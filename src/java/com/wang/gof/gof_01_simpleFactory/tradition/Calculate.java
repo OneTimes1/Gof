@@ -1,4 +1,4 @@
-package com.wang.gof.gof_01_simpleFactory;
+package com.wang.gof.gof_01_simpleFactory.tradition;
 
 import java.util.Scanner;
 

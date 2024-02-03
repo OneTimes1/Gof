@@ -1,4 +1,4 @@
-package com.wang.gof.gof_01_simpleFactory;
+package com.wang.gof.gof_01_simpleFactory.gof;
 
 public class Add extends Operation{
     @Override
