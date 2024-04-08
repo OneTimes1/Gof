@@ -8,7 +8,7 @@ public class Test {
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
         String operator = scanner.next();
-        //创建一共工厂
+        //创建一个工厂
         OperationFactory operationFactory = new OperationFactory();
         //通过传进来的符号创建对应的计算对象
         Operation oper = operationFactory.createOper(operator);
