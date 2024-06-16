@@ -15,8 +15,11 @@ public class Calculate {
         Scanner scanner = null;
         try {
             scanner = new Scanner(System.in);
+            System.out.println("请输入第一个数字, 然后按回车:");
             int num1 = scanner.nextInt();
+            System.out.println("请输入第二个数字, 然后按回车:");
             int num2 = scanner.nextInt();
+            System.out.println("请输入计算符号(+,-,*,/)");
             String computeSign = scanner.next();
             if ("+".equals(computeSign)){
                 System.out.println(num1+num2);
@@ -32,7 +35,6 @@ public class Calculate {
             }
             if ("/".equals(computeSign)){
                 System.out.println(num1/num2);
-                return;
             }
         } finally {
             if (scanner != null) {
